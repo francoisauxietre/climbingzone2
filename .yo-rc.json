@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.climbing2.zone",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "climbingzone2",
+    "packageName": "com.climbing2.zone",
+    "packageFolder": "com/climbing2/zone",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGZlZTNhNDgwYmEyNTRjM2VlYTY2ZWY4ZDllMTIyODg4NmY5M2I0MjRjMWJhMDUxZWE0Yzc5NGFmNjFmNDI3NzI1MTQyMmJiYjYwMmI5NTAzOGFiNjM3YjhmMjc1OTYzYWNmNjViYzY4MTUwOGRmYWY0MDJkODBjY2Q2NTMzNzg=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr", "pt-br", "es"]
+  }
+}
