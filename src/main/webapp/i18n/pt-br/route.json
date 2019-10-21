@@ -1,0 +1,29 @@
+{
+  "climbingzone2App": {
+    "route": {
+      "home": {
+        "title": "Routes",
+        "createLabel": "Criar novo Route",
+        "createOrEditLabel": "Criar ou editar Route",
+        "notFound": "Nenhum Route encontrado"
+      },
+      "created": "Um novo Route foi criado com o identificador {{ param }}",
+      "updated": "Um Route foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Route foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Route {{ id }}?"
+      },
+      "detail": {
+        "title": "Route"
+      },
+      "name": "Name",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "physique": "Physique",
+      "technique": "Technique",
+      "tactique": "Tactique",
+      "mental": "Mental",
+      "niveau": "Niveau"
+    }
+  }
+}

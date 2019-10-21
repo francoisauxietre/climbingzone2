@@ -16,6 +16,10 @@ import passwordReset, { PasswordResetState } from 'app/modules/account/password-
 import climber, {
   ClimberState
 } from 'app/entities/climber/climber.reducer';
+// prettier-ignore
+import route, {
+  RouteState
+} from 'app/entities/route/route.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -30,6 +34,7 @@ export interface IRootState {
   readonly password: PasswordState;
   readonly settings: SettingsState;
   readonly climber: ClimberState;
+  readonly route: RouteState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -46,6 +51,7 @@ const rootReducer = combineReducers<IRootState>({
   password,
   settings,
   climber,
+  route,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

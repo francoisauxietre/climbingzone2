@@ -8,6 +8,7 @@
       "entities": {
         "main": "Entities",
         "climber": "Climber",
+        "route": "Route",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

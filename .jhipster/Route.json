@@ -1,0 +1,48 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "physique",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "technique",
+            "fieldType": "Integer",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "tactique",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "mental",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "niveau",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191021151925",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "route",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
