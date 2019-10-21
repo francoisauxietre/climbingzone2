@@ -1,0 +1,25 @@
+{
+  "climbingzone2App": {
+    "climber": {
+      "home": {
+        "title": "Climbers",
+        "createLabel": "Create a new Climber",
+        "createOrEditLabel": "Create or edit a Climber",
+        "notFound": "No Climber found"
+      },
+      "created": "A new Climber is created with identifier {{ param }}",
+      "updated": "A Climber is updated with identifier {{ param }}",
+      "deleted": "A Climber is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Climber {{ id }}?"
+      },
+      "detail": {
+        "title": "Climber"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "birth": "Birth",
+      "friends": "Friends"
+    }
+  }
+}

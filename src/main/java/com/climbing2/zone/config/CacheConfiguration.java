@@ -46,6 +46,8 @@ public class CacheConfiguration {
             createCache(cm, com.climbing2.zone.domain.User.class.getName());
             createCache(cm, com.climbing2.zone.domain.Authority.class.getName());
             createCache(cm, com.climbing2.zone.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.climbing2.zone.domain.Climber.class.getName());
+            createCache(cm, com.climbing2.zone.domain.Climber.class.getName() + ".friends");
             // jhipster-needle-ehcache-add-entry
         };
     }

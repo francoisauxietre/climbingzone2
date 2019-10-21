@@ -1,0 +1,25 @@
+{
+  "climbingzone2App": {
+    "climber": {
+      "home": {
+        "title": "Climbers",
+        "createLabel": "Créer un nouveau Climber",
+        "createOrEditLabel": "Créer ou éditer un Climber",
+        "notFound": "Aucun Climber trouvé"
+      },
+      "created": "Un nouveau Climber a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Climber avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Climber avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Climber {{ id }} ?"
+      },
+      "detail": {
+        "title": "Climber"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "birth": "Birth",
+      "friends": "Friends"
+    }
+  }
+}

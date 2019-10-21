@@ -4,12 +4,14 @@ import { Switch } from 'react-router-dom';
 // tslint:disable-next-line:no-unused-variable
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
+import Climber from './climber';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
   <div>
     <Switch>
       {/* prettier-ignore */}
+      <ErrorBoundaryRoute path={`${match.url}/climber`} component={Climber} />
       {/* jhipster-needle-add-route-path - JHipster will add routes here */}
     </Switch>
   </div>

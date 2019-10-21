@@ -8,6 +8,8 @@
   creer une database dans mysql
   pour sudo mysql -u root -p ... et admin 
   
+  mettre dev dans les configuration de active profiles.
+  
 
   
 
